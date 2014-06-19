@@ -124,9 +124,6 @@
 // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
 #define DELTA_PRINTABLE_RADIUS 70.0
 
-// Diagonal rod squared
-#define DELTA_DIAGONAL_ROD_2 pow(DELTA_DIAGONAL_ROD,2)
-
 //===========================================================================
 //=============================Thermal Settings  ============================
 //===========================================================================
