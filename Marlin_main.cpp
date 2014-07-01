@@ -247,6 +247,10 @@ int EtoPPressure=0;
   #endif
 #endif
 
+#ifndef ULTRA_LCD
+      boolean forced_heating_stop;
+#endif
+
 #ifdef DELTA
 float delta[3] = {0.0, 0.0, 0.0};
 #define SIN_60 0.8660254037844386
