@@ -247,10 +247,6 @@ int EtoPPressure=0;
   #endif
 #endif
 
-#ifndef ULTRA_LCD
-      boolean cancel_heatup;
-#endif
-
 #ifdef DELTA
 float delta[3] = {0.0, 0.0, 0.0};
 #define SIN_60 0.8660254037844386
@@ -271,6 +267,8 @@ float delta_segments_per_second= DELTA_SEGMENTS_PER_SECOND;
 #ifdef NONLINEAR_BED_LEVELING
 float bed_level[ACCURATE_BED_LEVELING_POINTS][ACCURATE_BED_LEVELING_POINTS];
 #endif
+
+bool cancel_heatup = false;
 
 //===========================================================================
 //=============================private variables=============================

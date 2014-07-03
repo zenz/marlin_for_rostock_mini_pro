@@ -253,7 +253,7 @@ static void lcd_sdcard_stop()
         enquecommand_P(PSTR(SD_FINISHED_RELEASECOMMAND));
     }
     autotempShutdown();
-    cancel_heatup = false;
+    cancel_heatup = true;
 }
 
 /* Menu implementation */

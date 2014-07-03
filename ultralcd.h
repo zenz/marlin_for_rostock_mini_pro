@@ -42,8 +42,6 @@
   extern int absPreheatHotendTemp;
   extern int absPreheatHPBTemp;
   extern int absPreheatFanSpeed;
-
-  extern bool cancel_heatup;
     
   void lcd_buzz(long duration,uint16_t freq);
   bool lcd_clicked();
@@ -114,5 +112,7 @@ char *ftostr32(const float &x);
 char *ftostr5(const float &x);
 char *ftostr51(const float &x);
 char *ftostr52(const float &x);
+
+extern bool cancel_heatup;
 
 #endif //ULTRALCD
