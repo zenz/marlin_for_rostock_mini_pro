@@ -345,7 +345,7 @@
 #define N_ARC_CORRECTION 25
 
 #ifndef DELTA
-const unsigned int dropsegments=5; //every DROP thing with less than this number of steps will be ignored as move and joined with the next movement
+const unsigned int dropsegments=5; //every thing with less than this number of steps will be ignored as move and joined with the next movement
 #else
 const unsigned int dropsegments=1;
 #endif
