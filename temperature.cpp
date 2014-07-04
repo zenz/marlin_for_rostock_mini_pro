@@ -908,7 +908,7 @@ void thermal_runaway_protection(int *state, unsigned long *timer, float temperat
 {
 /*
       SERIAL_ECHO_START;
-      SERIAL_ECHO("Thermal Thermal Runaway Running. Heater ID:");
+      SERIAL_ECHO("Thermal Runaway Running. Heater ID:");
       SERIAL_ECHO(heater_id);
       SERIAL_ECHO(" ;  State:");
       SERIAL_ECHO(*state);
