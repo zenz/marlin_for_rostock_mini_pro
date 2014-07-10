@@ -122,7 +122,7 @@
 #define DELTA_RADIUS (DELTA_SMOOTH_ROD_OFFSET-DELTA_EFFECTOR_OFFSET-DELTA_CARRIAGE_OFFSET)
 
 // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
-#define DELTA_PRINTABLE_RADIUS 70 //Original 70, we try to see how is the difference
+#define DELTA_PRINTABLE_RADIUS 70.0
 
 //===========================================================================
 //=============================Thermal Settings  ============================
